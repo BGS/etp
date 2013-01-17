@@ -4,4 +4,6 @@
 #define EPP_DEBUG 1
 #define EPP_MAIN_DATABASE "database.db"
 
+#define EPP_LOG_FILE "log.txt"
+
 #endif
