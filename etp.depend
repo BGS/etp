@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1358424468 source:/home/bgs/etp/source/main.cpp
+	"includes/main.hpp"
+
+1358425312 /home/bgs/etp//includes/main.hpp
+	<iostream>
+	<string>
+	<boost/program_options.hpp>
+	"includes/database/sqlite.hpp"
+	"includes/package/pkgutils.hpp"
+
+1358197643 source:/home/bgs/etp/source/sqlite.cpp
+	"includes/database/sqlite.hpp"
+	"includes/database/exceptions.hpp"
+	"includes/defines.hpp"
+
+1358425389 /home/bgs/etp//includes/database/sqlite.hpp
+	<iostream>
+	<string>
+	<vector>
+	<sqlite3.h>
+
+1358425419 /home/bgs/etp//includes/defines.hpp
+
+1358425371 /home/bgs/etp//includes/database/exceptions.hpp
+
+1358424681 source:/home/bgs/etp/source/pkgutils.cpp
+	"includes/package/pkgutils.hpp"
+
+1358424533 /home/bgs/etp//includes/package/pkgutils.hpp
+	<iostream>
+	<stdio.h>
+	<archive.h>
+	<archive_entry.h>
+

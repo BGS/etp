@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="etp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/etp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/home/bgs/etp/" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../usr/lib/libboost_program_options.so" />
+					<Add library="../../../usr/lib/libarchive.so" />
+					<Add library="../../../usr/lib/libsqlite3.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/etp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic-errors" />
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="includes/database/exceptions.hpp" />
+		<Unit filename="includes/database/sqlite.hpp" />
+		<Unit filename="includes/defines.hpp" />
+		<Unit filename="includes/main.hpp" />
+		<Unit filename="includes/package/exceptions.hpp" />
+		<Unit filename="includes/package/pkgutils.hpp" />
+		<Unit filename="source/main.cpp" />
+		<Unit filename="source/pkgutils.cpp" />
+		<Unit filename="source/sqlite.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
+			</wxsmith>
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

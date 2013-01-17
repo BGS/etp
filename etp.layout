@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="includes/database/exceptions.hpp" open="1" top="0" tabpos="6">
+		<Cursor position="58" topLine="0" />
+	</File>
+	<File name="includes/database/sqlite.hpp" open="1" top="0" tabpos="1">
+		<Cursor position="56" topLine="0" />
+	</File>
+	<File name="includes/defines.hpp" open="1" top="1" tabpos="3">
+		<Cursor position="137" topLine="0" />
+	</File>
+	<File name="includes/main.hpp" open="1" top="0" tabpos="4">
+		<Cursor position="101" topLine="0" />
+	</File>
+	<File name="includes/package/exceptions.hpp" open="1" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="includes/package/pkgutils.hpp" open="1" top="0" tabpos="8">
+		<Cursor position="90" topLine="2" />
+	</File>
+	<File name="source/main.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="644" topLine="17" />
+	</File>
+	<File name="source/pkgutils.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="2608" topLine="116" />
+	</File>
+	<File name="source/sqlite.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="343" topLine="12" />
+	</File>
+</CodeBlocks_layout_file>

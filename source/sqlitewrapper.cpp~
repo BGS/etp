@@ -1,0 +1,26 @@
+#include <iostream> 
+
+#include "database/sqlitewrapper.hpp"
+#include "def.hpp"
+
+SQLWrapper& SQLWrapper::open( void )
+{
+    
+    int nRet = sqlite3_open(EPP_MAIN_DATABASE, &pSQLDb);
+    if (nRet != SQLITE_OK)
+    {
+	std::cout << "Could not open database";
+        //const char* szError = sqlite3_errmsg(pSQLDb);
+	//throw SQLWrapperException;
+    }
+    std::cout << "DB Open";
+    setBusyTimeout(30000); // 30 seconds
+
+    return *this;
+
+}
+
+void EPP_DB::SQLWrapper::say(void)
+{
+   std::cout << "hello world";
+}

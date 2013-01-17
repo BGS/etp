@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+# Codeblocks related
+*.hpp~
+*.cpp~
+bin/debug
+obj/

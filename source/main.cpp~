@@ -1,0 +1,13 @@
+#include "database/sqlitewrapper.hpp"
+#include <iostream>
+
+int main(void)
+{
+    EPP_DB::SQLWrapper sql();
+    sql.open();
+    sql.say();
+
+
+    return 0;
+
+}

@@ -1,0 +1,11 @@
+#ifndef _H_SQLITE_WRAPPER_INCLUDED__
+#define _H_SQLITE_WRAPPER_INCLUDED__
+
+
+#define EPP_MAIN_DATABASE test.db
+
+
+
+
+#endif
+

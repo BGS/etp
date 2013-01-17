@@ -1,0 +1,43 @@
+#ifndef _H_SQLITE_WRAPPER_INCLUDED__
+#define _H_SQLITE_WRAPPER_INCLUDED__
+
+
+
+namespace EPP_DB
+{
+    #include <sqlite3.h>
+ 
+    
+    class SQLWrapper
+    {
+    public:  
+        SQLWrapper();
+        virtual ~SQLWrapper();
+
+        SQLWrapper& open( void ) const;
+	void say ( void );
+        //void close();
+    
+        
+
+    
+    private:
+        void checkDB();
+
+        sqlite* pSQLDb;
+    
+    };
+
+}
+
+/*
+class SQLWrapperStatement
+{
+public:
+    SQLWrapperStatement();
+    SQLWrapperStatement(const SQLWrapperStatement& rSQLWrapperStatement); // copy constructor
+    SQLWrapperStatement(sqlite* pSqliteDB, sqlite_vm* pVM); // asignment
+    virtual ~SQLWrapperStatement(); 
+*/
+#endif
+

@@ -1,0 +1,6 @@
+#ifndef _H_ETP_SQLITE_EXCEPTION_INCLUDED__
+#define _H_ETP_SQLITE_EXCEPTION_INCLUDED__
+
+
+
+#endif
