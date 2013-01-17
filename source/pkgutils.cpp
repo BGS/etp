@@ -111,7 +111,7 @@ int pkgutil::EtpPkgUtils::tar_copy_data(struct archive* package_read, struct arc
     off_t offset;
 #endif
 
-    for (;;)
+    while (true)
     {
         ret = archive_read_data_block(package_read, &buff, &size, &offset);
         if (ret == ARCHIVE_EOF)
